@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #000000;
+  --aux-color: #65c100;
+  --alt-color: #c12300;
+  --background-color: #f9f9fb;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}

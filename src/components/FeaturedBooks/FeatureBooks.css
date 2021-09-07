@@ -1,0 +1,64 @@
+.featured__title {
+  height: 32px;
+  padding: 1.5em;
+  margin: 2em;
+}
+
+.featured__title > h2 {
+  margin-bottom: 1.3em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.featured__title > hr {
+  color: #eeeeee;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-top: 1em;
+  width: auto;
+}
+
+.flickity-button {
+  height: 100%;
+  background: rgba(241, 241, 241, 0.6);
+  border: 1px solid #f1f1f1;
+}
+.flickity-button:hover {
+  background: rgba(241, 241, 241, 0.9);
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30rem;
+  border-radius: 0;
+}
+
+.flickity-prev-next-button.previous {
+  left: 0;
+}
+
+.flickity-prev-next-button.next {
+  right: 0;
+}
+
+.flickity-button-icon {
+  fill: currentColor;
+}
+
+.flickity-page-dots {
+  bottom: -3rem;
+}
+.flickity-page-dots .dot.is-selected {
+  background: #64c12e;
+}
+
+.carousel-cell > img {
+  height: 520px;
+  width: 700px;
+  padding: 2em;
+  object-fit: contain;
+  width: auto;
+  display: flex !important;
+  justify-content: space-between;
+}

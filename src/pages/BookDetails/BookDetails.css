@@ -1,0 +1,144 @@
+.bookdetails {
+  padding: 1.5em;
+}
+
+.go__back {
+  display: flex !important;
+  align-items: center;
+}
+
+.bookdetails__layout {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+.bookdetails__left {
+  padding: 0 1em;
+  width: 243px;
+}
+
+.bookdetails__copies > p {
+  color: #65c100;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 2em;
+  line-height: 15px;
+}
+
+.bookdetails__price > p {
+  letter-spacing: -1px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  padding-bottom: 0.5em;
+  line-height: 41px;
+}
+
+.bookdetails__addtocart > button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+  width: 243px;
+  height: 70px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.bookdetails__right {
+  width: 837px;
+}
+
+.book__body > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-top: 2em;
+  padding: 2em 0;
+}
+
+.bookdetails__desc {
+  padding: 1em 0;
+}
+
+.bookdetails__cata {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bookdetails hr {
+  color: #eeeeee;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+/* Responsiveness Section */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .bookdetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookdetails__layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookdetails__right {
+    padding: 1em;
+  }
+
+  .bookdetails__title h2 {
+    width: 238px;
+  }
+
+  .bookdetails__addtocart > button {
+    width: 315px;
+    position: absolute;
+    top: 130%;
+  }
+
+  .bookdetails__cata {
+    width: 350px;
+  }
+
+  hr {
+    width: 320px;
+  }
+
+  .book__body {
+    width: 320px;
+    padding-top: 1.5em;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .bookdetails__addtocart > button {
+    width: 315px;
+    position: absolute;
+    top: 117% !important;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .bookdetails__addtocart > button {
+    width: 315px;
+    position: absolute;
+    top: 106%;
+  }
+}

@@ -1,0 +1,108 @@
+.search {
+  padding: 1.5em;
+}
+
+.search__library {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1.2em;
+  margin: 2em;
+}
+
+.search__title {
+  height: 32px;
+  margin: 2em;
+}
+
+.search__title > h2 {
+  margin-bottom: 1.3em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.search__title > hr {
+  color: #eeeeee;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  margin-top: 1em;
+  width: auto;
+}
+
+.search__details {
+  display: flex;
+  width: 403px;
+  margin-top: 2em;
+}
+
+.search__layouts {
+  padding: 0.2em 1em 0;
+  padding-bottom: 1.3em;
+  align-items: center;
+}
+
+.search__layouts > h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.search__layouts > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.search__rank {
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.users__likes {
+  display: flex;
+  align-items: center;
+}
+
+.ratings,
+.search__checkout > p,
+.search__instock {
+  padding-left: 1em;
+}
+
+.sales {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.search__checkout {
+  display: flex;
+  padding: 0.5em 1em;
+  align-items: center;
+}
+
+.search__price > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.search__instock > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #65c100;
+}
+
+.search__checkout > p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
