@@ -44,7 +44,7 @@ Getting all featured books to render on the carousel and getting selected books 
 
 # Improvements to be Made
 
-All functionalities are hard coded out. Will be working on wiring them out to their individual components like the search, and cart functions
+All functionalities/logic are hard coded out. Will be working on wiring them out to their individual components like the search, and cart functions
 <br>
 Finally Completion of book details page as well as getting books on the carousel since the featured posts only returns a boolean
 
