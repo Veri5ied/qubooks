@@ -44,4 +44,4 @@ Getting all featured books to render on the carousel and getting selected books 
 
 # Improvements to be Made
 
-Completion of book details page as well as getting books on the carousel
+Completion of book details page as well as getting books on the carousel and passing down the functionalities already put in place to their respective components.
