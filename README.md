@@ -40,4 +40,8 @@ Also the images coming from the API are of different sizes and stylings hardly w
 
 # Requirements not covered.
 
-Getting all featured books to render on the carousel and also the search functionality for smaller screens.
+Getting all featured books to render on the carousel and getting selected books to open on details page.
+
+# Improvements to be Made
+
+Completion of book details page as well as getting books on the carousel
